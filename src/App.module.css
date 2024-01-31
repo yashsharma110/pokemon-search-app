@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Convergence&display=swap");
+
+:root {
+  --brown-red: #7d6262;
+  --brown-red-hover: #ab8686;
+  --light-red: #ffe1e1;
+  --light-red-hover: #f5c8c8;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Convergence", sans-serif;
+}
+
+.app {
+  height: 100vh;
+  width: 100vw;
+}
+
+.nav {
+  height: 10%;
+}
+
+.content {
+  height: 90%;
+}

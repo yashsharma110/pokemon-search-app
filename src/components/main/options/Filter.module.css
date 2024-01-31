@@ -1,0 +1,50 @@
+.filterBox {
+  width: 20%;
+  height: 2.2rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.filter {
+  height: 100%;
+  width: 100%;
+  padding: 0 1rem;
+  border: 2px solid var(--brown-red);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter > img {
+  height: 100%;
+}
+
+.filterTypes {
+  height: 338px;
+  width: 100%;
+  overflow-y: auto;
+  position: relative;
+  z-index: 100;
+  cursor: pointer;
+  background: var(--light-red);
+  display: flex;
+  flex-direction: column;
+}
+
+.filterTypes > div {
+  padding: 2px 1rem;
+  border: 1px solid var(--brown-red);
+  border-top: none;
+}
+
+.filterTypes > div:hover {
+  background: var(--light-red-hover);
+}
+
+.filterTypes::-webkit-scrollbar {
+  width: 4px;
+}
+
+.filterTypes::-webkit-scrollbar-thumb {
+  background: var(--brown-red);
+}

@@ -1,0 +1,71 @@
+.searchBox {
+  width: 40%;
+  height: 2.2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.searchInput {
+  width: 90%;
+  height: 100%;
+  padding: 0.3rem 1rem;
+  background: none;
+  border: 2px solid var(--brown-red);
+  outline: none;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  text-transform: capitalize;
+}
+
+.searchButton {
+  height: 100%;
+  width: 10%;
+  border: 2px solid var(--brown-red);
+  border-left: none;
+  background: none;
+  cursor: pointer;
+}
+
+.searchButton:hover {
+  background: var(--light-red-hover);
+}
+
+.searchButton > img {
+  min-height: 15px;
+  min-width: 15px;
+  height: 100%;
+  width: 100%;
+}
+
+.suggestionBox {
+  max-height: 338px;
+  width: 100%;
+  overflow-y: auto;
+  position: relative;
+  z-index: 100;
+  cursor: pointer;
+  background: var(--light-red);
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+}
+
+.suggestion {
+  padding: 2px 1rem;
+  border: 1px solid var(--brown-red);
+  border-top: none;
+}
+
+.suggestion:hover {
+  background: var(--light-red-hover);
+}
+
+.suggestionBox::-webkit-scrollbar {
+  width: 4px;
+}
+
+.suggestionBox::-webkit-scrollbar-thumb {
+  background: var(--brown-red);
+}

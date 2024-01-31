@@ -1,0 +1,62 @@
+.detailsPage {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.detailsPage > div {
+  width: 90%;
+  height: 85%;
+  padding: 1rem;
+  margin: 1rem;
+  background: var(--light-red);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.detailsPage button {
+  padding: 0.2rem 0.5rem;
+  font-size: 1.2rem;
+  background: var(--light-red);
+  border: 2px solid var(--brown-red);
+  transition: 0.2s ease-in-out;
+}
+
+.detailsPage button:hover {
+  background: var(--light-red-hover);
+  letter-spacing: 1px;
+}
+
+.profile {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.profile > div {
+  width: 30%;
+  height: 100%;
+  text-align: center;
+}
+
+.profile > div:first-child {
+  background: var(--light-red-hover);
+  border-radius: 50%;
+}
+
+.profile > div > img {
+  width: 100%;
+  height: 100%;
+}
+
+.barChart {
+  width: 90%;
+}

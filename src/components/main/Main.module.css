@@ -1,0 +1,33 @@
+.mainBody {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.options {
+  height: 10%;
+  width: 100%;
+  background: var(--light-red);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  height: 90%;
+  width: 100%;
+  background: var(--light-red);
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 440px) {
+  .options {
+    height: 15%;
+    flex-direction: column;
+  }
+  .options > * {
+    margin-top: 0.2rem;
+  }
+}

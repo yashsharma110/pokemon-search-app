@@ -1,0 +1,12 @@
+.nav {
+  height: 100%;
+  padding: 2rem;
+  background: var(--brown-red);
+  display: flex;
+  align-items: center;
+}
+
+.navHeading {
+  font-size: 1.8rem;
+  color: var(--light-red);
+}
